@@ -1,10 +1,53 @@
 *{
     box-sizing: border-box;
+    transition: 1s;
 }
 
 header{
     display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 5rem;
 }
 header img{
-    height: 200;
+    height: 100px;
+}
+main{
+    margin: 1rem;
+}
+main img{
+    height: 300px;
+    max-width: 100%;
+    border: .5rem, solid, black;
+}
+main img:hover{
+    height: 350px;
+}
+main #intro{
+    border: 1px, solid, red;
+    margin-bottom: 1rem;
+}
+#runnerUp{
+    display:flex;
+    flex-direction: row;
+    gap: 5rem; 
+    padding: 0;
+}
+main .topShop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+    border: 1px, solid, blue;
+}
+main article{
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+    border: 1px, solid, green;
+}
+main h2{
+    text-align: center;
+    padding-bottom: 3rem;
 }
