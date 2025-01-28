@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -15,14 +16,16 @@ header{
     font-style: normal;
     font-size: 1.75em;
 }
-body 
+
 header img{
     height: 100px;
 }
+
 body{
     background-color: #363C47;
 
 }
+
 main{
     margin: 1rem;
     display: flex;
@@ -32,63 +35,64 @@ main{
 
 main #intro{
     width: 50rem;
-    border: .25rem, solid, black;
+    border: .25rem solid black;
     margin-bottom: 1rem;
     background-color:  #8D9FBC;
     padding-left: 1rem;
     padding-right: 1rem;
 
 }
+
 #runnerUp{
     display:flex;
     flex-direction: row;
     gap: 1rem;
 }
+
 main .notTopShop{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
-    border: .25rem, solid, black;
+    border: .25rem solid black;
     background-color: #8D9FBC;
     padding: 1rem;
 }
-article img{
+
+#topSpot img{
     width: 400px ;
-    border: .2rem, solid, black;
+    border: .2rem solid black;
 }
 .notTopShop img{
     width: 80%;
-    border: .2rem, solid, black;
+    border: .2rem solid black;
 }
-/*Hover animation
-.notTopShop img:hover{
-    width: 90%;
-}
-article img:hover{
-    width: ;
-}*/
 
-main article{
+main #topSpot{
     width: 60rem;
     display: flex;
     gap: 3rem;
-    border: .25rem, solid, black;
+    border: .25rem solid black;
     background-color: #8D9FBC;
     padding: 1rem;
     margin-top: 1rem;
 }
+
 main h2{
     text-align: center;
     padding-bottom: 3rem;   
 }
+
 footer{
-    background-color: #3D392E;
+    background-color: #363C47;
     width: 100%;
     margin-left: 0;
     color: white;
+    text-align: center;
+    margin-top: 1rem;
 
 }
+
 @media (max-width: 900px){
     main article{
         flex-direction: column;
