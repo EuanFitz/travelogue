@@ -11,6 +11,7 @@ header{
     gap: 5rem;
     padding: .1rem;
     background-color: #A4B8DB;
+
     font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
@@ -23,23 +24,27 @@ header img{
 
 body{
     background-color: #363C47;
-
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 main{
     margin: 1rem;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 main #intro{
-    width: 50rem;
     border: .25rem solid black;
     margin-bottom: 1rem;
     background-color:  #8D9FBC;
     padding: 0 1rem 0 1rem;
+    width: 60%;
+    margin: 0 auto 1rem;
+}
 
+main h1,h2,h3{
+    color:#d0fcff;
 }
 
 #runnerUp{
@@ -68,13 +73,13 @@ main .notTopShop{
 }
 
 main #topSpot{
-    width: 60rem;
+    width: 80%;
     display: flex;
     gap: 3rem;
     border: .25rem solid black;
     background-color: #8D9FBC;
     padding: 1rem;
-    margin: 1rem 0 0 0; /*TRouBLe*/
+    margin: 1rem auto 0; /*TRouBLe*/
 }
 
 main h2{
@@ -91,6 +96,9 @@ footer{
 
 }
 @media (max-width: 900px){
+    main #intro{
+        width: auto;
+    }
     main article{
         flex-direction: column;
         align-items: center;
